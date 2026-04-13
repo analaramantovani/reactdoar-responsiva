@@ -90,7 +90,9 @@ export default function CadastroOng1() {
     }
 
     function alterarEmail(e) {
-        setEmail(e.currentTarget.value)
+        let valor = e.currentTarget.value
+        valor = valor.replace(/\s/g, '')
+        setEmail(valor)
     }
 
     function alterarSenha(e) {
