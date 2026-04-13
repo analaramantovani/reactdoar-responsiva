@@ -38,7 +38,7 @@ export default function RedefinirSenha1() {
         form.append('token', localStorage.getItem("token"));
 
 
-        let retorno = await fetch(`http://localhost:5000/editar_usuarios/${id}`, {
+        let retorno = await fetch(`http://10.92.3.150:5000/editar_usuarios/${id}`, {
         method: 'PUT',
             credentials: 'include',
             body: form

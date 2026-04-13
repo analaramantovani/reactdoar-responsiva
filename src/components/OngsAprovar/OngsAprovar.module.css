@@ -1,0 +1,14 @@
+.texto{
+    color: black;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 1rem;
+}

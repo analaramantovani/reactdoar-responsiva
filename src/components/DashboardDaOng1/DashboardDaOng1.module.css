@@ -1,3 +1,11 @@
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
 .acoes{
     display: flex;
     gap: 1rem;
@@ -6,12 +14,14 @@
 }
 
 .cards{
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 25rem;
+    align-items: center;
 }
 
-h2{
-    font-size: 1.2rem;
-    font-weight: 800;
+.titulos{
+    margin: 0
 }
+

@@ -38,6 +38,8 @@ export default function VerificarCodigoSenha1() {
 
         retorno = await retorno.json();
 
+        console.log(retorno);
+
         if (retorno.message) {
             localStorage.setItem("id", retorno.id)
             localStorage.setItem("token", retorno.token)

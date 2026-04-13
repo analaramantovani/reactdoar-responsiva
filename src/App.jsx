@@ -15,6 +15,7 @@ import ConfirmarEmail1 from "./components/ConfirmarEmail1/ConfirmarEmail1.jsx";
 import Atualizacao from "./pages/Atualizacao.jsx";
 import EditarAtualizacao from "./pages/EditarAtualizacao.jsx";
 import DashboardDaOng from "./pages/DashboardDaOng.jsx";
+import AprovarOngs from "./pages/AprovarOngs.jsx";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/postagem" element={<Atualizacao/>} />
             <Route path="/editarPostagem" element={<EditarAtualizacao/>} />
             <Route path="/dashboardOng" element={<DashboardDaOng/>} />
+            <Route path="/aprovarOngs" element={<AprovarOngs/>} />
 
         </Routes>
           <Footer/>
