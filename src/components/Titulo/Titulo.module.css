@@ -29,7 +29,12 @@
     text-align: center;
 }
 
-
+.preto{
+    color: black;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
 
 @media (max-width: 321px) {
     .azul-claro, .laranja, .rosa  {

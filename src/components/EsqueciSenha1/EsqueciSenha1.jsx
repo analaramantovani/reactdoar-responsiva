@@ -23,7 +23,7 @@ export default function EsqueciSenha() {
     }
 
     async function esqueciSenha() {
-        let retorno = await fetch('http://10.92.3.125:5000/esqueci_senha', {
+        let retorno = await fetch('http://10.92.3.150:5000/esqueci_senha', {
         method: 'POST',
             headers: {
             'Content-Type': 'application/json',

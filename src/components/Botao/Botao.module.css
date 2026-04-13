@@ -85,6 +85,19 @@
     transform: scale(1.02);
 }
 
+.azul{
+    background-color: #0C598B;
+    border: none;
+    border-radius: 2rem;
+    width: 15rem;
+    padding: 0.7rem;
+    color: white;
+    font-family: 'Inter', Arial;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
 
 @media (max-width: 480px) {
     .amarelo, .vazado, .rosa {

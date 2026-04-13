@@ -12,6 +12,9 @@ import TelaErro from "./pages/TelaErro.jsx";
 import RedefinirSenha from "./pages/RedefinirSenha.jsx";
 import AreaRestrita from "./pages/AreaRestrita.jsx";
 import ConfirmarEmail1 from "./components/ConfirmarEmail1/ConfirmarEmail1.jsx";
+import Atualizacao from "./pages/Atualizacao.jsx";
+import EditarAtualizacao from "./pages/EditarAtualizacao.jsx";
+import DashboardDaOng from "./pages/DashboardDaOng.jsx";
 
 export default function App() {
   return (
@@ -29,6 +32,9 @@ export default function App() {
             <Route path="/verificarCodigo" element={<VerificarCodigoSenha/>} />
             <Route path="/*" element={<TelaErro/>} />
             <Route path="/dashboard" element={<AreaRestrita/>} />
+            <Route path="/postagem" element={<Atualizacao/>} />
+            <Route path="/editarPostagem" element={<EditarAtualizacao/>} />
+            <Route path="/dashboardOng" element={<DashboardDaOng/>} />
 
         </Routes>
           <Footer/>

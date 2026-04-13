@@ -1,6 +1,7 @@
 import css from "./Banner.module.css";
 import Botao from "../Botao/Botao.jsx";
 export default function Banner() {
+
     return (
         <section className={css.banner}>
             <div className={css.textos}>
@@ -9,7 +10,7 @@ export default function Banner() {
                 <p className={css.paragrafo}>Sempre quis contribuir mais nunca soube como? Acesse a Doar+ e doe agora!</p>
             </div>
             <div className={css.conheca}>
-                <Botao pagina="/Teste" texto="Acesse a plataforma" />
+                <Botao pagina="/login" texto="Acesse a plataforma"  />
             </div>
 
         </section>

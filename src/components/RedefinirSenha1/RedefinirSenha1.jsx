@@ -1,4 +1,4 @@
-import Input from "../../components/Input/Input.jsx";
+import  Input from "../../components/Input/Input.jsx";
 import Titulo from "../Titulo/Titulo.jsx";
 import Botao from "../Botao/Botao.jsx";
 import css from "./RedefinirSenha1.module.css"
@@ -18,9 +18,9 @@ export default function RedefinirSenha1() {
         localStorage.removeItem('sucesso');
     }
 
-    if (id) {
-        localStorage.removeItem('id');
-    }
+    // if (id) {
+    //     localStorage.removeItem('id');
+    // }
 
 
     function alterarSenha(e) {
@@ -37,7 +37,8 @@ export default function RedefinirSenha1() {
         form.append('confirmar_senha', confirmarSenha);
         form.append('token', localStorage.getItem("token"));
 
-        let retorno = await fetch('http://10.92.3.125:5000/editar_usuarios/' + id, {
+
+        let retorno = await fetch(`http://localhost:5000/editar_usuarios/${id}`, {
         method: 'PUT',
             credentials: 'include',
             body: form

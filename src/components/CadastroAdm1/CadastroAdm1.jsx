@@ -63,7 +63,7 @@ export default function CadastroAdm1() {
         form.append('confirmar_senha', confirmarSenha)
         form.append('tipo', 0)
 
-        let retorno = await fetch('http://10.92.3.125:5000/criar_usuarios', {
+        let retorno = await fetch('http://10.92.3.150:5000/criar_usuarios', {
             method: 'POST',
             credentials: 'include',
             body: form
