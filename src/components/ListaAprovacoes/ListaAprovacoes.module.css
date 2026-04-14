@@ -5,4 +5,22 @@
     margin-top: 5rem;
     gap: 1rem;
     flex-direction: column;
+
+}
+
+.tituloprincipal{
+    margin-bottom: 2rem;
+}
+
+.categorias{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 17.5rem;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }

@@ -36,6 +36,13 @@
     text-align: center;
 }
 
+.preto-subtitulo{
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center;
+}
+
 @media (max-width: 321px) {
     .azul-claro, .laranja, .rosa  {
         color: #ffffff;

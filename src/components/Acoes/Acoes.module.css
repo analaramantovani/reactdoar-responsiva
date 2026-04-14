@@ -1,9 +1,11 @@
-h2{
+.link{
     font-size: 1rem;
     font-weight: 800;
     text-align: center;
     justify-content: center;
     margin-left: 1rem;
+    border: none;
+    background-color: transparent;
 }
 
 .amarelo{

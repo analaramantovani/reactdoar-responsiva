@@ -11,9 +11,9 @@ export default function DashboardDaOng1() {
             </div>
             <Titulo titulo={'Ações Rápidas'} cor={'preto'}/>
             <div className={css.acoes}>
-                <Acoes cor={'amarelo'} texto={'Editar Perfil'}/>
+                <Acoes cor={'amarelo'} texto={'Editar Perfil'} pagina={'/editarOng'}/>
                 <Acoes cor={'amarelo'} texto={'Criar Projeto'}/>
-                <Acoes cor={'amarelo'} texto={'Criar Atualização'}/>
+                <Acoes cor={'amarelo'} texto={'Criar Atualização'} pagina={'/postagem'}/>
             </div>
             <div className={css.titulos}>
                 <Titulo titulo={'Projetos Ativos'} cor={'preto'}/>
@@ -25,6 +25,11 @@ export default function DashboardDaOng1() {
             </div>
             <div className={css.titulos}>
                 <Titulo titulo={'Últimas atualizações'} cor={'preto'}/>
+            </div>
+            <div className={css.cards}>
+                <Cards texto={'Mutirão de Castração Solidária'} imagem={'/projeto3.png'}/>
+                <Cards texto={'Operação Patas Quentinhas'} imagem={'/projeto1.png'}/>
+                <Cards texto={'Recomeço Feliz'} imagem={'/projeto2.png'}/>
             </div>
 
         </section>

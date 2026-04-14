@@ -7,7 +7,7 @@ import Mensagem from "../Mensagem/Mensagem.jsx";
 import {useState} from "react";
 
 
-const API_URL = ' http://10.92.3.150:5000';
+const API_URL = 'http://10.92.3.177:5000';
 
 export default function ConfirmarEmail1() {
     const [codigo, setCodigo] = useState('');
@@ -75,7 +75,7 @@ export default function ConfirmarEmail1() {
                                             alterarInput={alterarCodigo}
                                         />
                             </div>
-                            <div className={"d-flex align-items-end justify-content-center gap-5 " + css.areaBotao}>
+                            <div className={"d-flex flex-column align-items-center gap-3 " + css.areaBotao}>
                                         <Botao
                                             cor={'amarelo'}
                                             texto={'Confirmar e-mail'}

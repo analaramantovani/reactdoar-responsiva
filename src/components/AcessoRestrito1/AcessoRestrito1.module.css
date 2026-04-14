@@ -5,3 +5,9 @@
     flex-direction: column;
     margin: 5rem;
 }
+
+@media(max-width:769px){
+    body{
+        background-color: #0b53aa;
+    }
+}

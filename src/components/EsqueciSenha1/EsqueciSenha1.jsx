@@ -19,11 +19,13 @@ export default function EsqueciSenha() {
     }
 
     function alterarEmail(e) {
-        setEmail(e.target.value)
+        let valor = e.currentTarget.value
+        valor = valor.replace(/\s/g, '')
+        setEmail(valor)
     }
 
     async function esqueciSenha() {
-        let retorno = await fetch('http://10.92.3.150:5000/esqueci_senha', {
+        let retorno = await fetch('http://10.92.3.177:5000/esqueci_senha', {
         method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -62,7 +64,7 @@ export default function EsqueciSenha() {
                             <div className={css.campo}>
                                 <Input
                                     label={"E-mail"}
-                                    type={"email"}
+                                    type={"text"}
                                     placeholder={"Digite seu e-mail"}
                                     required={true}
                                     input={email}

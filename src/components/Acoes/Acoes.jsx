@@ -1,10 +1,13 @@
 import css from './Acoes.module.css';
+import {Link} from "react-router-dom";
 
-export default function Acoes({cor = 'amarelo', texto}){
+export default function Acoes({cor = 'amarelo', pagina, texto}){
     return (
         <div className={css.cards}>
             <div className={css[cor]}></div>
-            <h2>{texto}</h2>
+            <Link to={pagina}>
+                <button type="button" className={css.link}>{texto}</button>
+            </Link>
         </div>
     )
 }

@@ -16,6 +16,7 @@ import Atualizacao from "./pages/Atualizacao.jsx";
 import EditarAtualizacao from "./pages/EditarAtualizacao.jsx";
 import DashboardDaOng from "./pages/DashboardDaOng.jsx";
 import AprovarOngs from "./pages/AprovarOngs.jsx";
+import EdicaoOng from "./pages/EdicaoOng.jsx";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
             <Route path="/editarPostagem" element={<EditarAtualizacao/>} />
             <Route path="/dashboardOng" element={<DashboardDaOng/>} />
             <Route path="/aprovarOngs" element={<AprovarOngs/>} />
+            <Route path="/editarOng" element={<EdicaoOng/>} />
 
         </Routes>
           <Footer/>
