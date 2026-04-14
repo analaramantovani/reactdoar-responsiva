@@ -17,6 +17,8 @@ import EditarAtualizacao from "./pages/EditarAtualizacao.jsx";
 import DashboardDaOng from "./pages/DashboardDaOng.jsx";
 import AprovarOngs from "./pages/AprovarOngs.jsx";
 import EdicaoOng from "./pages/EdicaoOng.jsx";
+import AprovacoesReprovacoes from "./pages/AprovacoesReprovacoes.jsx";
+import Teste from "./pages/Teste.jsx";
 
 export default function App() {
   return (
@@ -39,6 +41,9 @@ export default function App() {
             <Route path="/dashboardOng" element={<DashboardDaOng/>} />
             <Route path="/aprovarOngs" element={<AprovarOngs/>} />
             <Route path="/editarOng" element={<EdicaoOng/>} />
+            <Route path="/aprovarReprovar" element={<AprovacoesReprovacoes/>} />
+            <Route path="/teste" element={<Teste/>} />
+
 
         </Routes>
           <Footer/>

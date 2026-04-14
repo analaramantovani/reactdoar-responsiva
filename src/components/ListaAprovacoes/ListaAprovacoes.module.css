@@ -16,11 +16,12 @@
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    gap: 17.5rem;
+    gap: 17rem;
 }
 
 .cards{
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    margin-bottom: 2rem
 }

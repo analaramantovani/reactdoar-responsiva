@@ -48,7 +48,7 @@ export default function RedefinirSenha1() {
 
     if (retorno.message) {
             const token = localStorage.getItem('token');
-            await fetch('http://10.92.3.177:5000/logout', {
+            await fetch('http://10.92.3.180:5000/logout', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -6,7 +6,10 @@ export default function OngsAprovar({nomeong, data}) {
         <div className={css.card}>
             <h2 className={css.texto}>{nomeong}</h2>
             <h2 className={css.data}>{data}</h2>
-            <Botao texto={'Analisar'} cor={'amarelo'}/>
+            <div className={css.botao}>
+                <Botao texto={'Analisar'} cor={'amarelo-menor'} pagina={'/aprovarReprovar'}/>
+            </div>
+
         </div>
     )
 }

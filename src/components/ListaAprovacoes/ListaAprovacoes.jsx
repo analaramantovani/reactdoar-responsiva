@@ -14,10 +14,10 @@ export default function ListaAprovacoes() {
                 <Titulo titulo={'Ações'} cor={'preto-subtitulo'}/>
             </div>
             <div className={css.cards}>
-                <OngsAprovar nomeong={'GRUPA'} data={'17/11/25'}  />
-                <OngsAprovar nomeong={'GRUPA'}  />
-                <OngsAprovar nomeong={'GRUPA'}  />
-                <OngsAprovar nomeong={'GRUPA'}  />
+                <OngsAprovar nomeong={'GRUPA'} data={'02/03/2026'}   />
+                <OngsAprovar nomeong={'Gerando Falcões'} data={'04/03/2026'}  />
+                <OngsAprovar nomeong={'Tocando em Frente'} data={'06/03/2026'}  />
+                <OngsAprovar nomeong={'Amigos do Bem'} data={'07/03/2026'}  />
             </div>
 
         </section>
