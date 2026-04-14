@@ -14,7 +14,7 @@ export default function InputArquivo({required = false, tamanho = "normal" }) {
             setNomeArquivo("Nenhum arquivo selecionado")
         }
 
-        alterarInput(e)
+
     }
 
     return (
